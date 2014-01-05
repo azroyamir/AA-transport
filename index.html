@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.js"></script>
+
+<meta charset="utf-8">
+<title>Sign In</title>
+<style type="text/css">
+
+body {
+	text-align: center;
+	  }
+ 
+</style>
+
+</head>
+
+<body>
+  
+<!-- *********************** header ********************************--> 	
+	<div data-role="page">
+ 	 <div data-role="header" data-theme="b" data-position="fixed">
+ 	 <p><img src="logoall.gif" width="180" height="60"  alt=""/></p>
+	</div>
+<!-- *********************** header ********************************--> 
+   <!-- ***********************body start ********************************--> 	
+   <h1><strong>Sign In</strong></h1>
+	<div data-role="content">
+		<form action="http://m.fyp207.com/login.php" method="post">
+			<p>Username:</p>
+			<input type="text" name="username" placeholder="Username">
+			<p>Password:</p>
+			<input type="password" name="password" placeholder="Password">
+			<input type="submit" value="Login" data-role="button" data-inline="true">
+		</form>
+	</div>
+	<a href="http://m.fyp207.com/Register.html">Register</a>  
+<!-- ***********************body end ********************************-->   
+<!-- *********************** footer ********************************-->
+  <div data-role="footer" data-position="fixed" data-theme="b" data-content-theme="d">
+  <div class="credits"><font size="1px">Copyright &copy; 2014 A&amp;A Transportation (002227 122-M). All rights reserved.</font></div>
+  </div>
+<!-- *********************** footer ********************************-->             
+</body>
+</html>
+
